@@ -1,5 +1,35 @@
 <!-- NEWS.md is maintained by https://cynkra.github.io/fledge, do not edit -->
 
+# mlfit 0.5.2 (2021-07-02)
+
+- Address CRAN comments (#62).
+- Improve documentation.
+- Document the return values of `compute_margins()` and `margin_to_df()` (#62)
+- Add a return tag for `compute_margins()`. (#62)
+- Shorten the package title to less than 65 chars (#62).
+
+
+# mlfit 0.5.1 (2021-06-24)
+
+- Make a file check test more robust as per CRAN's suggestion.
+
+
+# mlfit 0.5.0 (2021-06-24)
+
+- `ml_problem()` gains a `geo_hierarchy` argument, which let the user specifies a region and zone table for creating a list of `ml_problem` objects based on zones. See the `README` page for an example. Printing `ml_problem` will also show its zone, if exists.
+- Add a person ID column to Ye's example. (#57)
+- Fix the package's URL (#56) and URLs used in the package.
+- Add a GPL-3 license file and the copyright holder role to Kirill.
+- Add more changes for first CRAN submission. These changes do not affect any functionalities.
+- Add an example section to README.
+
+
+# mlfit 0.4.2 (2021-06-18)
+
+- Add more changes for first CRAN submission. These changes do not affect any functionalities.
+- Add an example section to README
+
+
 # mlfit 0.4.1 (2021-06-16)
 
 - Prepare for first CRAN release (#51).

@@ -4,11 +4,15 @@
 \name{mlfit-package}
 \alias{mlfit}
 \alias{mlfit-package}
-\title{mlfit: Implementation of algorithms that extend Iterative Proportional Fitting to nested structures}
+\title{mlfit: Iterative Proportional Fitting Algorithms for Nested Structures}
 \description{
-The Iterative Proportional Fitting (IPF) algorithm operates on count data. This package offers
-    implementations for several algorithms that extend this to nested structures:
-    "parent" and "child" items for both of which constraints can be provided.
+The Iterative Proportional Fitting (IPF) algorithm operates on count data. 
+    This package offers implementations for several algorithms that extend this to 
+    nested structures: 'parent' and 'child' items for both of which constraints can be provided.
+    The fitting algorithms include Iterative Proportional Updating <https://trid.trb.org/view/881554>,
+    Hierarchical IPF <doi:10.3929/ethz-a-006620748>, Entropy Optimization <https://trid.trb.org/view/881144>,
+    and Generalized Raking <doi:10.2307/2290793>. Additionally, a number of replication methods
+    is also provided such as 'Truncate, replicate, sample' <doi:10.1016/j.compenvurbsys.2013.03.004>.
 }
 \details{
 To use this package, you need to:
@@ -26,9 +30,9 @@ algorithms and compare results.
 \seealso{
 Useful links:
 \itemize{
-  \item \url{https://krlmlr.github.io/mlfit}
-  \item \url{https://github.com/krlmlr/mlfit}
-  \item Report bugs at \url{https://github.com/krlmlr/mlfit/issues}
+  \item \url{https://mlfit.github.io/mlfit/}
+  \item \url{https://github.com/mlfit/mlfit}
+  \item Report bugs at \url{https://github.com/mlfit/mlfit/issues}
 }
 
 }
@@ -37,7 +41,7 @@ Useful links:
 
 Authors:
 \itemize{
-  \item Kirill Müller (Creator of the package)
+  \item Kirill Müller (Creator of the package) [copyright holder]
 }
 
 Other contributors:
